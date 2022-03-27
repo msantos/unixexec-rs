@@ -4,8 +4,8 @@ unixexec *PATH* *COMMAND* *...*
 
 # DESCRIPTION
 
-[unixexec](https://github.com/msantos/unixexec): a minimal,
-[UCSPI](https://jdebp.uk/FGA/UCSPI.html) inetd for Unix sockets
+unixexec: a minimal, [UCSPI](https://jdebp.uk/FGA/UCSPI.html) inetd for
+Unix sockets
 
 `unixexec` attaches the stdin/stdout of a command to a Unix socket:
 
@@ -103,3 +103,7 @@ UNIXREMOTEUSER
 
 UNIXREMOTEEGID
 : group ID of connecting process
+
+# ALTERNATIVES
+
+* [unixexec](https://github.com/msantos/unixexec) (C)
