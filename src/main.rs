@@ -27,7 +27,7 @@ usage: <SOCKETPATH> <COMMAND> <...>
 "#,
         PROGNAME, VERSION,
     );
-    exit(1);
+    exit(2);
 }
 
 fn main() -> Result<(), Box<dyn std::error::Error>> {
